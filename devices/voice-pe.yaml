@@ -515,7 +515,9 @@ wifi:
 
 external_components:
   - source:
-      type: local
+      type: git
+      url: https://github.com/OHF-Voice/firmware-voice-incubator/devices/voice-pe.yaml
+      ref: main
       path: components
     components: [voice_incubator]
   - source:
